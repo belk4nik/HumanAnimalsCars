@@ -1,0 +1,9 @@
+# ninja log v6
+7	692	7527787614861819	CMakeFiles/Main_project.dir/Car.cpp.obj	7c434861546241a2
+13	539	7527809012497787	CMakeFiles/Main_project.dir/Child.cpp.obj	63c699aad4d6979c
+49	723	7527732613979317	CMakeFiles/Main_project.dir/Animal.cpp.obj	2150bf083807d645
+19	608	7527810531054902	CMakeFiles/Main_project.dir/main.cpp.obj	5e1ab059a2bab376
+32	828	7527784623119959	CMakeFiles/Main_project.dir/Human.cpp.obj	969a6a04191c96f1
+1397	1971	7529544202183455	Main_project.exe	b3630b4ab14e723e
+21	561	7527790525114668	CMakeFiles/Main_project.dir/Enum.cpp.obj	99c4205fae44d585
+92	1395	7529544189143537	CMakeFiles/Main_project.dir/Adult.cpp.obj	d0d3dfb19457f0f
