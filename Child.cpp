@@ -11,19 +11,19 @@ Child::Child()
     this->_think = false;
 }
 
-Child::Child(const std::string &name, const std::string &scndName, int age, double weight, double tall, bool think):
+Child::Child(const std::string name, const std::string scndName, int age, double weight, double tall, bool think):
 Human( name,scndName,age,weight,tall), _think(think) {}
 
-Child::Child(const std::string &name, const std::string &scndName, int age, double weight) :
+Child::Child(const std::string name, const std::string scndName, int age, double weight) :
 Human(name, scndName, age,weight,0), _think(0) {}
 
-Child::Child(const std::string &name, const std::string &scndName, int age) :
+Child::Child(const std::string name, const std::string scndName, int age) :
 Human(name, scndName, age,0,0), _think(0) {}
 
-Child::Child(const std::string &name, const std::string &scndName) :
+Child::Child(const std::string name, const std::string scndName) :
 Human(name, scndName,0,0,0),_think(0) {}
 
-Child::Child(const std::string &name) :
+Child::Child(const std::string name) :
 Human(name, "undefined",0,0,0), _think(0) {}
 
 bool Child::isThink() const {

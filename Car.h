@@ -27,7 +27,7 @@ public:
 
     double calculateFuelConsumption();
     void reduceMileage(int km);
-    void displayInfo() const;
+    virtual void displayInfo() const;
 
     std::string getMark() const;
 
@@ -49,7 +49,7 @@ public:
 
     void setProbeg(double probeg);
 
-    ~Car();
+    virtual ~Car();
 
     Car operator++();
     Car operator--();

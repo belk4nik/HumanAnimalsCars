@@ -14,15 +14,15 @@ Light::Light()
 
 
 
-Light::Light( std::string &mark,  std::string &color, std::string &typeBody, double volume,double probeg, int seatPass) : Car(mark, color, typeBody, volume, probeg), _seatPass(correctCount(seatPass)) {}
+Light::Light( std::string mark,  std::string color, std::string typeBody, double volume,double probeg, int seatPass) : Car(mark, color, typeBody, volume, probeg), _seatPass(correctCount(seatPass)) {}
 
-Light::Light( std::string &mark,  std::string &color,  std::string &typeBody) : Car(mark,color,typeBody,0,0),_seatPass(0) {}
+Light::Light( std::string mark,  std::string color,  std::string typeBody) : Car(mark,color,typeBody,0,0),_seatPass(0) {}
 
-Light::Light( std::string &mark,  std::string &color,  std::string &typeBody, double volume) : Car(mark, color, typeBody, volume,0),_seatPass(0) {}
+Light::Light( std::string mark,  std::string color,  std::string typeBody, double volume) : Car(mark, color, typeBody, volume,0),_seatPass(0) {}
 
-Light::Light( std::string &mark,  std::string &color) : Car(mark, color,"undefined",0,0),_seatPass(0) {}
+Light::Light( std::string mark,  std::string color) : Car(mark, color,"undefined",0,0),_seatPass(0) {}
 
-Light::Light( std::string &mark) : Car(mark,"undefined","undefined",0,0),_seatPass(0) {}
+Light::Light( std::string mark) : Car(mark,"undefined","undefined",0,0),_seatPass(0) {}
 
 int Light::getSeatPass() {
     return _seatPass;

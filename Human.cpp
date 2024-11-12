@@ -14,7 +14,7 @@ double Human::IMT()
 }
 
 
-void Human::displayHuman() const {
+void Human::displayHuman() const{
     std::cout << "Имя: " << _name << "\n"
               << "Фамилия: " << _scnd_name << "\n"
               << "Возраст: " << _age << "\n"

@@ -11,18 +11,18 @@ Home_animals::Home_animals()
 }
 
 
-Home_animals::Home_animals(const std::string &name, const std::string &species, const std::string &color, int age,
+Home_animals::Home_animals(const std::string name, const std::string species, const std::string color, int age,
                            double weight, int prikol) : Animal(name, species, color, age, weight), _prikol(correctCount((prikol))) {}
 
-Home_animals::Home_animals( std::string &name,  std::string &species,  std::string &color, int age,double weight) : Animal(name, species, color, age, weight), _prikol(0) {}
+Home_animals::Home_animals( std::string name,  std::string species,  std::string color, int age,double weight) : Animal(name, species, color, age, weight), _prikol(0) {}
 
-Home_animals::Home_animals( std::string &name,  std::string &species,  std::string &color, int age): Animal(name, species, color, age,0), _prikol(0) {}
+Home_animals::Home_animals( std::string name,  std::string species,  std::string color, int age): Animal(name, species, color, age,0), _prikol(0) {}
 
-Home_animals::Home_animals( std::string &name,  std::string &species,  std::string &color) : Animal(name,species,color,0,0), _prikol(0) {}
+Home_animals::Home_animals( std::string name,  std::string species,  std::string color) : Animal(name,species,color,0,0), _prikol(0) {}
 
-Home_animals::Home_animals( std::string &name,  std::string &species) : Animal(name, species,"undefined",0,0), _prikol(0) {}
+Home_animals::Home_animals( std::string name,  std::string species) : Animal(name, species,"undefined",0,0), _prikol(0) {}
 
-Home_animals::Home_animals( std::string &name) : Animal(name,"undefined","undefined",0,0),_prikol(0) {}
+Home_animals::Home_animals( std::string name) : Animal(name,"undefined","undefined",0,0),_prikol(0) {}
 
 int Home_animals::getPrikol() const {
     return _prikol;

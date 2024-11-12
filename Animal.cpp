@@ -9,7 +9,7 @@ void Animal::changeName(std::string newName) {
     _name = newName;
 }
 
-void Animal::displayInfo() const {
+void Animal::displayInfo() const{
     std::cout << "Имя: " << _name << "\n"
               << "Вид: " << _species << "\n"
               << "Окрас: " << _color << "\n"
